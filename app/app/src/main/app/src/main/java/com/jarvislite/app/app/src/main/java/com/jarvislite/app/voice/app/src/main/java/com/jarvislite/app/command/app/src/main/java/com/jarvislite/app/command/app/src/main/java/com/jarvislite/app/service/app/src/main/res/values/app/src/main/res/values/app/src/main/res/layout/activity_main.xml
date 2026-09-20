@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jarvis Lite"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step 1: allow Jarvis Lite to read your notifications"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnGrantNotificationAccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grant Notification Access" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step 2: test the voice reply flow"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnTestVoiceReply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speak a Reply" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step 3: talk to Jarvis \u2014 anything goes"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnTalkToJarvis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Talk to Jarvis" />
+
+    <TextView
+        android:id="@+id/tvLastHeard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="" />
+
+</LinearLayout>
