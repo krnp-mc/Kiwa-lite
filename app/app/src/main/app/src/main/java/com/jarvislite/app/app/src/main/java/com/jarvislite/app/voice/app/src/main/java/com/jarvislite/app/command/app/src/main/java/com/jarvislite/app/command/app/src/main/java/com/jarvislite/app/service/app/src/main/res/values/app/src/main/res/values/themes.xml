@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.JarvisLite" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+</resources>
